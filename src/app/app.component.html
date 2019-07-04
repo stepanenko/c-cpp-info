@@ -1,0 +1,42 @@
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">Minimal App</a>
+    
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <div class="jumbotron">
+    <h1 class="display-3">Angular Elements</h1>
+    <p class="lead">Our message is {{ message }}</p>
+    <hr class="my-4">
+
+    <div *ngIf="users">
+      <p *ngFor="let user of users">
+        {{ user.name }} ({{ user.username }})
+      </p>
+    </div>
+
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="#" role="button">Lets Go</a>
+    </p>
+  </div>
+</main>
+
+<footer class="text-center">
+  Copyright &copy; 2019 Stepanenco
+</footer>
