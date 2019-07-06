@@ -17,8 +17,7 @@ export class AppComponent {
     const AlertEl = createCustomElement(AlertComponent, { injector: this.injector });
     customElements.define('my-alert', AlertEl);
     setTimeout(() => {
-      this.content = 'Hello World';
-      // this.domSanitizer.bypassSecurityTrustHtml('<app-alert message="Rendered dynamically"</app-alert>');
+      this.content = this.domSanitizer.bypassSecurityTrustHtml('<app-alert message="Rendered dynamically"</app-alert>');
     }, 1000);
   }
 
