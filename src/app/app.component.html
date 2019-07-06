@@ -1,28 +1,20 @@
 
 <header>
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <a class="navbar-brand" href="#">Minimal App</a>
-    
-    <div class="collapse navbar-collapse" id="navbarColor01">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-      </ul>
-    </div>
+    <a class="navbar-brand" href="#">Minimal Test App</a>
   </nav>
 </header>
 
 <main>
   <div class="jumbotron">
     <h1 class="display-3">Angular Elements</h1>
-    <p class="lead">Our message is {{ message }}</p>
+
+    <div [innerHTML]="content"></div>
+
+    <hr class="my-4">
+    
+    <app-alert message='This is a normal Angular component'></app-alert>
+
     <hr class="my-4">
 
     <div *ngIf="users">
