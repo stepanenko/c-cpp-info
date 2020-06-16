@@ -4,5 +4,7 @@ Author: **Max**
 
 Duration: **00:15:34**
 
+Tech Stack: **Angular 9.1.11**
+
 Angular Elements allows you to convert ordinary Angular components into native web components (custom HTML elements). That's a pretty awesome feature and you actually only need to write two lines of code to get there. 
 
