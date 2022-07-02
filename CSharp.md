@@ -12,3 +12,7 @@ C# encompasses static typing, strong typing, lexically scoped, imperative, decla
 C# enables developers to build many types of secure and robust applications that run in .NET.
 
 C# has its roots in the C family of languages and will be immediately familiar to C, C++, Java, and JavaScript programmers.
+
+### Tutorials:
+
+[How to Run C# in VSCode (Compile, Debug, and Create a Project)](https://www.youtube.com/watch?v=DAsyjpqhDp4&ab_channel=TravisMedia)
