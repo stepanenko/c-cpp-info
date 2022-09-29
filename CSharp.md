@@ -18,3 +18,31 @@ C# has its roots in the C family of languages and will be immediately familiar t
 - [C# Intermediate: Classes, Interfaces and OOP (Mosh)](https://coursehunter.net/course/c-intermediate-klassy-interfeysy-i-oop)
 
 - [How to Run C# in VSCode (Compile, Debug, and Create a Project)](https://www.youtube.com/watch?v=DAsyjpqhDp4&ab_channel=TravisMedia)
+
+## Constructors:
+
+```cs
+public class Customer
+{
+    public string Name;
+    
+    public Customer(string name) // constructor method
+    {
+        this.Name = name;
+    }
+}
+
+// usage
+var customer = new Customer("Serhiy");
+```
+
+### Constructor Overloading:
+```cs
+public class Customer
+{
+    public Customer() { ... } // constructor 1
+    public Customer(string name) { ... } // constructor 2
+    public Customer(int id, string name) { ... } // constructor 3
+}
+// here we say Customer constructor is overloaded with 2 more constructors, and we may use whichever we need
+```
