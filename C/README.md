@@ -1,5 +1,5 @@
 
-# C Notes
+## C Notes
 
 Inspired by: **[CS50 2019 Lectures](https://www.youtube.com/watch?v=e9Eds2Rc_x8&pbjreload=101)**
 
