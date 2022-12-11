@@ -19,6 +19,8 @@ C# has its roots in the C family of languages and will be immediately familiar t
 
 - [C# Intermediate: Classes, Interfaces and OOP (Mosh)](https://coursehunter.net/course/c-intermediate-klassy-interfeysy-i-oop)
 
+- [Advanced data structures and algorithms in C# (Mosh)](https://coursehunter.net/course/udemy-adv-csharp)
+
 - [How to Run C# in VSCode (Compile, Debug, and Create a Project)](https://www.youtube.com/watch?v=DAsyjpqhDp4&ab_channel=TravisMedia)
 
 ## Constructors:
