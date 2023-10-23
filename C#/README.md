@@ -35,7 +35,7 @@ class Hello
     }
 }
 ```
-To run or edit the code go to Microsoft website - https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/#hello-world
+To run/edit the code or read about C# program basics go to - https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/#hello-world
 
 ### Tutorials:
 
