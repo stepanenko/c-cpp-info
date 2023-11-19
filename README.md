@@ -1,5 +1,5 @@
 
-# C / C++ / C#
+# C Languages
 
 - [C](https://github.com/stepanenko/c-cpp-info/tree/master/C)
 - [C++](https://github.com/stepanenko/c-cpp-info/tree/master/C++)
