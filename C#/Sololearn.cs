@@ -15,10 +15,11 @@ public class Program {
     }
 }
 
+
 // 2
 // Fix and complete the Area method, which takes the length and width as arguments,
 // to calculate and return the area. Then call the method for the given inputs.
- 
+
 using System;
 
 public class Program {
