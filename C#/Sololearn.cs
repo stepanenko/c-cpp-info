@@ -34,3 +34,17 @@ public class Program {
         return w * l;
     }
 }
+
+// 3
+// Example of a class
+
+class Person {
+    int age;
+    string name;
+    public void SayHi() {
+        Console.WriteLine("Hi");
+    }
+}
+
+// A member that has been defined public can be accessed from outside the class,
+// as long as it's anywhere within the scope of the class object.
