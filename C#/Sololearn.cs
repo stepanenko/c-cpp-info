@@ -40,7 +40,7 @@ public class Program {
 
 class Person {
     int age;
-    string name;
+    public string name;
     public void SayHi() {
         Console.WriteLine("Hi");
     }
@@ -50,3 +50,11 @@ class Person {
 // as long as it's anywhere within the scope of the class object.
 // You can also designate class members as private or protected.
 // If no access modifier is defined, the member is private by default.
+
+// instantiate an object of type Person in Main:
+static void Main(string[] args) {
+    Person p1 = new Person();
+    // the new operator instantiates an object and returns a reference to its location
+    p1.name = "John";
+    p1.SayHi();
+}
