@@ -48,3 +48,5 @@ class Person {
 
 // A member that has been defined public can be accessed from outside the class,
 // as long as it's anywhere within the scope of the class object.
+// You can also designate class members as private or protected.
+// If no access modifier is defined, the member is private by default.
