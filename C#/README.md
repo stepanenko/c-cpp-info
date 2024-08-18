@@ -5,7 +5,7 @@ C# was designed in 2000 by **Anders Hejlsberg** (Microsoft) and developed by **M
 
 The most recent stable version of the language is C# 12.0, released in 2023 in .NET 8.0.
 
-A new version of the C# is released every year. C# 12 will be released in December 2023 together with .NET 8.
+A new version of the C# is released every year.
 
 C# 11 is supported only on .NET 7 and newer versions. C# 10 is supported only on .NET 6 and newer versions. C# 9 is supported only on .NET 5 and newer versions...
 
