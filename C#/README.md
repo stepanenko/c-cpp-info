@@ -39,6 +39,8 @@ To run/edit the code or read about C# program basics go to - https://learn.micro
 
 ### Tutorials:
 
+- [Official C# for Beginners Videos](https://learn.microsoft.com/en-us/shows/csharp-for-beginners/)
+
 - [C# Basics for Beginners: Learn C# Fundamentals by Coding (Mosh)](https://coursehunter.net/course/osnovy-c-dlya-nachinayushchih-izuchenie-osnov-c-na-praktike)
 
 - [C# Intermediate: Classes, Interfaces and OOP (Mosh)](https://coursehunter.net/course/c-intermediate-klassy-interfeysy-i-oop)
