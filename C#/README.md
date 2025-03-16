@@ -1,13 +1,20 @@
 
 # C#
 
-C# was designed in 2000 by **Anders Hejlsberg** (Microsoft) and developed by **Mads Torgersen** (Microsoft).
+**C#** was designed in 2000 by **Anders Hejlsberg** (Microsoft) and developed by **Mads Torgersen** (Microsoft).
 
-The most recent stable version of the language is C# 12.0, released in 2023 in .NET 8.0.
+**Anders Hejlsberg** is a Danish software engineer also known for his work on other programming languages, such as Turbo Pascal and Delphi.
+
+**C#** was developed by **Hejlsberg** and his team at Microsoft as part of the **.NET Framework**. It was first released in **2000** as part of **.NET Framework 1.0**, with the goal of providing a modern, object-oriented programming language that could be used for building a wide range of applications, including Windows applications, web services, and more.
+
+**C#** was designed to be a **simple, powerful, and type-safe language** that could address many of the shortcomings of earlier programming languages
+
+The most recent stable version of the language is **C# 13 released in 2024 alongside .NET 9** (released in November 2024). 
+The current long-term support (LTS) version is .NET 8, released in November 2023, which will receive updates until November 2026.
 
 A new version of the C# is released every year.
 
-C# 11 is supported only on .NET 7 and newer versions. C# 10 is supported only on .NET 6 and newer versions. C# 9 is supported only on .NET 5 and newer versions...
+C# 13 is supported only on .NET 9 and newer versions. C# 12 is supported only on .NET 8 and newer versions. C# 11 is supported only on .NET 7 and newer versions. C# 10 is supported only on .NET 6 and newer versions.
 
 The name "C sharp" was inspired by the musical notation whereby a sharp symbol indicates that the written note should be made a semitone higher in pitch. This is similar to the language name of C++, where "++" indicates that a variable should be incremented by 1 after being evaluated. The sharp symbol also resembles a ligature of four "+" symbols, further implying that the language is an increment of C++.
 
