@@ -19,7 +19,7 @@ C# has its roots in the C family of languages and will be immediately familiar t
 
 C# takes some of the useful features of C and adds syntax to save time and effort. Although C# is based on C, you can learn it without any knowledge of C.
 
-C# programs run on .NET, a virtual execution system called the common language runtime (CLR) and a set of class libraries. Source code written in C# is compiled into an intermediate language (IL) that conforms to the CLI specification. The IL code and resources, such as bitmaps and strings, are stored in an assembly, typically with an extension of .dll.
+C# programs run on .NET, a virtual execution system called the common language runtime (CLR) and a set of class libraries. Source code written in C# is compiled into an intermediate language (IL). The IL code and resources, such as bitmaps and strings, are stored in an assembly, typically with an extension of `.dll`.
 
 When the C# program is executed, the assembly is loaded into the CLR. The CLR performs Just-In-Time (JIT) compilation to convert the IL code to native machine instructions.
 
