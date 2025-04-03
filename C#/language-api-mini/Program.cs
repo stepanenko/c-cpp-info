@@ -1,4 +1,3 @@
-// Program.cs
 using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 
@@ -23,6 +22,7 @@ app.UseHttpsRedirection();
 
 // CRUD Endpoints
 // GET: Retrieve all languages
+// claude
 app.MapGet("/api/languages", async (AppDbContext db) =>
     await db.ProgrammingLanguages.ToListAsync())
     .WithName("GetAllLanguages");
