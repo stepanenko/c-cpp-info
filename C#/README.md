@@ -97,16 +97,16 @@ public class Customer
 }
 ```
 `"Default"` - Sets the minimum log level for your entire app  
-`Microsoft.AspNetCore` - Specifically sets the logging level for ASP.NET Core framework messages (e.g., HTTP pipeline, routing, middleware)
+`"Microsoft.AspNetCore"` - Specifically sets the logging level for ASP.NET Core framework messages (e.g., HTTP pipeline, routing, middleware)
 
 Common log levels in order of verbosity:
 
-1. Trace (most verbose)
-2. Debug
-3. Information
-4. Warning
-5. Error
-6. Critical
-7. None (no logging)
+`Trace`	- Super-detailed logs (low-level debug)  
+`Debug`	- Debugging info  
+`Information` - Normal events (requests, startup info)  
+`Warning` - Something odd but not breaking  
+`Error` - Something failed  
+`Critical` - Serious error, app might crash  
+`None` - Turn off logging  
 
 For production, consider changing these settings to be less verbose.
