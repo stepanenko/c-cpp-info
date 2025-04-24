@@ -96,6 +96,9 @@ public class Customer
   ...
 }
 ```
+`"Default"` - Sets the minimum log level for your entire app  
+`Microsoft.AspNetCore` - Specifically sets the logging level for ASP.NET Core framework messages (e.g., HTTP pipeline, routing, middleware)
+
 Common log levels in order of verbosity:
 
 1. Trace (most verbose)
