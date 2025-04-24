@@ -83,3 +83,27 @@ public class Customer
 }
 // here we say Customer constructor is overloaded with 2 more constructors, and we may use whichever we need
 ```
+
+### App Settings (`appsettings.json`)
+```json
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Information"
+    }
+  },
+  ...
+}
+```
+Common log levels in order of verbosity:
+
+1. Trace (most verbose)
+2. Debug
+3. Information
+4. Warning
+5. Error
+6. Critical
+7. None (no logging)
+
+For production, consider changing these settings to be less verbose.
