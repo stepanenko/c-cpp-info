@@ -9,7 +9,7 @@
 
 **C#** was designed to be a **simple, powerful, and type-safe language** that could address many of the shortcomings of earlier programming languages
 
-The most recent stable version of the language is **C# 13 released in 2024 alongside .NET 9** (released in November 2024). 
+The most recent stable version of the language is **C# 14 released in 2025 alongside .NET 10** (released November 2025). 
 The current long-term support (LTS) version is .NET 8, released in November 2023, which will receive updates until November 2026.
 
 A new version of the C# is released every year.
