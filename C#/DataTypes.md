@@ -206,3 +206,10 @@ namespace DataTypesDemo
     }
 }
 ```
+
+You will spend the vast majority of your time using these:
+
+- Keep a simple list of items: `List<T>`  
+- Find an item instantly using an ID: `Dictionary<K, V>`  
+- Store data that never changes size: `Array`  
+- Ensure no duplicates exist: `HashSet<T>`
