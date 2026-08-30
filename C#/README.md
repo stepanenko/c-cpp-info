@@ -1,13 +1,13 @@
 
 # C#
 
-**C#** was designed in 2000 by **Anders Hejlsberg** (Microsoft) and developed by **Mads Torgersen** (Microsoft).
+**C#** was designed in 2000 by **Anders Hejlsberg** (Microsoft) and developed by **Mads Torgersen** (Microsoft). 
 
 **Anders Hejlsberg** is a Danish software engineer also known for his work on other programming languages, such as Turbo Pascal and Delphi.
 
-**C#** was developed by **Hejlsberg** and his team at Microsoft as part of the **.NET Framework**. It was first released in **2000** as part of **.NET Framework 1.0**, with the goal of providing a modern, object-oriented programming language that could be used for building a wide range of applications, including Windows applications, web services, and more.
+**C#** was developed by **Hejlsberg** and his team at Microsoft as part of the **.NET Framework**. It was first released in **2000** as part of **.NET Framework 1.0**, with the goal of providing a modern, object-oriented programming language that could be used for building a wide range of applications, including Windows applications, web services, and more. 
 
-**C#** was designed to be a **simple, powerful, and type-safe language** that could address many of the shortcomings of earlier programming languages
+**C#** was designed to be a **simple, powerful, and type-safe language** that could address many of the shortcomings of earlier programming languages. Now it is completely free, open-source, and cross-platform.
 
 The most recent version of the language is **C# 14** released alongside **.NET 10** in November 2025. 
 The current long-term support (LTS) version is .NET 10, which will receive updates until November 2028.
