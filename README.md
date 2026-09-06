@@ -4,7 +4,6 @@
 [C](https://github.com/stepanenko/c-cpp-info/tree/master/C) &bull; [C++](https://github.com/stepanenko/c-cpp-info/tree/master/C++) &bull; [C#](https://github.com/stepanenko/c-cpp-info/tree/master/C%23#README.md)
 
 ### Key Differences Between C, C++, and C#:
-Mostly accurate, but one row is outdated and a couple could use nuance. Here's the corrected version:
 
 | Feature | C | C++ | C# |
 |---|---|---|---|
