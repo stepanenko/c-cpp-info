@@ -75,4 +75,41 @@ Hello from middleware 1 again!
 
 ### Built-in middleware
 
+ASP.NET Core provides a set of built-in middleware components that you can use to add common functionality to your app. In addition to the explicitly added middleware components, some middleware is implicitly added for you by default. For example, `WebApplication.CreateBuilder()` returns a `WebApplicationBuilder` that adds the developer exception page routing middleware, conditionally adds the authentication and authorization middleware if the related services are configured, and adds the endpoint routing middleware.
+
+```c#
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+builder.Services.AddRazorComponents()
+    .AddInteractiveServerComponents();
+
+var app = builder.Build();
+
+// Configure the HTTP request pipeline.
+if (!app.Environment.IsDevelopment())
+{
+    app.UseExceptionHandler("/Error", createScopeForErrors: true);
+    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+    app.UseHsts();
+}
+
+app.UseHttpsRedirection();
+
+app.UseAntiforgery();
+
+app.MapStaticAssets();
+app.MapRazorComponents<App>()
+    .AddInteractiveServerRenderMode();
+
+app.Run();
+```
+- `app.UseExceptionHandler()` adds a middleware component that catches exceptions and returns an error page.
+- `app.UseHsts()` adds a middleware component that sets the Strict-Transport-Security header.
+- `app.UseHttpsRedirection()` adds a middleware component that redirects HTTP requests to HTTPS.
+- `app.UseAntiforgery()` adds a middleware component that prevents cross-site request forgery (CSRF) attacks.
+- `app.MapStaticAssets()` and `app.MapRazorComponents<App>()` map routes to endpoints, which are then handled by the endpoint routing middleware. The endpoint routing middleware is implicitly added by the `WebApplicationBuilder`.
+
+There are many more built-in middleware components that you can use in your app depending on the type of app and your needs.
+
 ... https://learn.microsoft.com/en-us/training/modules/aspnetcore-middleware/2-understand-middleware
